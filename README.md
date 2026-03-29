@@ -12,6 +12,21 @@ The goal of this project is to predict whether the network will be **congested i
 
 ---
 
+### Why Classification Instead of Regression?
+
+The problem can be formulated in two ways:
+- Regression: Predicting future bandwidth usage
+- Classification: Predicting whether the network is congested or not
+
+I chose a **classification approach** for the following reasons:
+
+- The business objective is decision-oriented (e.g., trigger alerts, reroute traffic), which aligns better with binary outcomes.
+- The dataset does not contain direct congestion metrics such as bandwidth limits, latency, or packet loss, making regression targets unreliable.
+- Congestion labels were derived heuristically (based on traffic percentiles), making classification more robust to noise.
+- Evaluation criteria emphasized accuracy, which naturally aligns with classification tasks.
+
+Therefore, classification provides a more interpretable and practical solution for this problem.
+
 ## Approach
 
 ### 1. Data Understanding
