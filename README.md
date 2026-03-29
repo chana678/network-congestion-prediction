@@ -1,4 +1,4 @@
-# Network Traffic Congestion Prediction 🚦
+# Network Traffic Congestion Prediction 
 
 ## Summary
 This project predicts future network congestion using machine learning on aggregated network traffic flow data. The solution transforms flow-level data into time-based network-level features and applies a Random Forest model for prediction.
