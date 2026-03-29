@@ -152,27 +152,27 @@ POST /predict
 Sample Input(JSON)
 Use this as a sample input in Swagger UI
 
-{
-  "total_bytes": 500000,
-  "total_packets": 1000,
-  "num_flows": 200,
-  "bytes_per_sec": 8000,
-  "packets_per_sec": 20,
-  "flows_per_sec": 5,
-  "avg_packet_size": 500,
-  "bytes_rolling_mean": 450000,
-  "bytes_rolling_std": 20000
-}
-Sample Output
-{
-  "congestion": 0,
-  "message": "Not Congested"
-}
-or
-{
-  "congestion": 1,
-  "message": "Congested"
-}
+{\
+  "total_bytes": 500000,\
+  "total_packets": 1000,\
+  "num_flows": 200,\
+  "bytes_per_sec": 8000,\
+  "packets_per_sec": 20,\
+  "flows_per_sec": 5,\
+  "avg_packet_size": 500,\
+  "bytes_rolling_mean": 450000,\
+  "bytes_rolling_std": 20000\
+}\
+Sample Output\
+{\
+  "congestion": 0,\
+  "message": "Not Congested"\
+}\
+or\
+{\
+  "congestion": 1,\
+  "message": "Congested"\
+}\
 
 ### Project Structure
 
