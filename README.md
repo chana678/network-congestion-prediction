@@ -177,12 +177,12 @@ or\
 ### Project Structure
 
 network-congestion-prediction/
-│
-├── notebook.ipynb        # Full ML pipeline
-├── app.py                # FastAPI application
-├── model.pkl             # Trained model
-├── requirements.txt      # Dependencies
-├── README.md             # Documentation
+│\
+├── notebook.ipynb        # Full ML pipeline\
+├── app.py                # FastAPI application\
+├── model.pkl             # Trained model\
+├── requirements.txt      # Dependencies\
+├── README.md             # Documentation\
 
 ### How to run the project
 
